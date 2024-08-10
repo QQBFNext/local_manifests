@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Kernel -->
+<project path="kernel/xiaomi/sdm439" name="QQBFNext/android_kernel_xiaomi_sdm439-4.19" remote="github" clone-depth="1" revision="udc" />
+
+<!-- HALs -->
+<project path="hardware/mithorium-4.19" name="QQBFNext/android_hardware_mithorium-4.19" remote="github" clone-depth="1" revision="udc-k4.19" />
+
+<!-- GPS -->
+<project path="hardware/qcom-caf/gps-legacy" name="QQBFNext/android_hardware_qcom_gps" remote="github" revision="uvite-legacy-component" />
+   
+<!-- Device -->
+<project path="device/xiaomi/mi439" name="QQBFNext/android_device_xiaomi_mi439-standalone" remote="github" revision="universe-qpr3" />
+<project path="device/qcom/common" name="QQBFNext/device_qcom_common" remote="github" revision="udc-3" />
+
+<!--- Vendor Blobs -->
+<project path="vendor/xiaomi/mi439" name="QQBFNext/proprietary_vendor_xiaomi_mi439-4.19" remote="github" clone-depth="1" revision="udc" />
+<project path="vendor/qcom/common" name="QQBFNext/proprietary_vendor_qcom_common" remote="github" clone-depth="1" revision="uvite" />
+
+<!-- Vendor Opensource -->
+<project path="vendor/qcom/opensource/core-utils" name="QQBFNext/android_vendor_qcom-opensource_core-utils" remote="github" revision="uvite" />
+
+</manifest>
